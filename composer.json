@@ -1,0 +1,20 @@
+{
+  "name": "majernik/neural-network",
+  "description": "Neural network",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michal Majernik",
+      "email": "m.majernik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "markrogoyski/math-php": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Majernik\\NeuralNetwork\\": "src/"
+    }
+  }
+}
